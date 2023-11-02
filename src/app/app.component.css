@@ -1,0 +1,21 @@
+div{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-color: #e9e1e1;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    
+}
+
+.navbar a{
+    color: #070606ec;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}

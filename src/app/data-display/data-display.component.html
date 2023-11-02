@@ -1,0 +1,15 @@
+
+<div *ngIf="data">
+    <h2>Data Fetched from Holiday Calender API</h2>
+    <ul *ngFor="let item of data">
+        
+        <li>
+            <strong>Date : </strong>{{item.date}}
+        </li>
+        <li><strong>Local Name : </strong>{{item.localName}}</li>
+        <li><strong>Name : </strong>{{item.name}}</li>
+        <li><strong>Global : </strong>{{item.global}}</li>
+        <li><strong>Country code : </strong>{{item.countryCode}}</li>
+    </ul>
+
+</div>
